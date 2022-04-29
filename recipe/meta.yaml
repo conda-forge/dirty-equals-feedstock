@@ -1,5 +1,5 @@
 {% set name = "dirty-equals" %}
-{% set version = "0.3" %}
+{% set version = "0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dirty-equals-{{ version }}.tar.gz
-  sha256: 8e2356af6a5d2a307a0f94fb8d4da4880e355fe684265e4133014d6d1040a6e8
+  sha256: 244128dcb52a42cbdfedba17ea91a40ed50094e7c4e4d17977ec9ce90d4ea6b1
 
 build:
   skip: true  # [py<37]
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
