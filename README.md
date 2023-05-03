@@ -1,11 +1,11 @@
-About dirty-equals
-==================
+About dirty-equals-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dirty-equals-feedstock/blob/main/LICENSE.txt)
 
 Home: https://dirty-equals.helpmanual.io
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dirty-equals-feedstock/blob/main/LICENSE.txt)
 
 Summary: Doing dirty (but extremely useful) things with equals.
 
