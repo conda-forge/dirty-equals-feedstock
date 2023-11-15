@@ -1,5 +1,5 @@
 {% set name = "dirty-equals" %}
-{% set version = "0.7.1" %}
+{% set version = "0.7.1.post0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: a580513f3285e93656a770a04e428f8bfc513848877bf278282dbfbb907fdbb4
+  sha256: 78ff80578a46163831ecb3255cf30d03d1dc2fbca8e67f820105691a1bc556dc
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
