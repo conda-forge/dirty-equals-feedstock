@@ -1,5 +1,5 @@
 {% set name = "dirty-equals" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 798db3b9481b9a5024c0e520946507676ed2f0c65317d3e95bdce1a01657cf60
+  sha256: 17f515970b04ed7900b733c95fd8091f4f85e52f1fb5f268757f25c858eb1f7b
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   noarch: python
 
 requirements:
