@@ -21,7 +21,6 @@ requirements:
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - pytz >=2021.3
 
 test:
   imports:
